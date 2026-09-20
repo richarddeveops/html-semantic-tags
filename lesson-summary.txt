@@ -1,5 +1,5 @@
-HTML ELEMENT TAGS
+SEMANTIC HTML TAGS
 
-I learnt the difference between container elements and void elements. Container elements hold content and have an opening and closing tag, such as <p>This is text.</p>. Void elements do not hold content and do not need a closing tag, such as <br>, <img>, <hr>, and <input>.
+I learnt that semantic tags describe the meaning and purpose of page content. Examples include header, nav, main, section, article, aside, and footer.
 
-I also practised using headings, lists, forms, tables, semantic elements, and text-formatting elements.
+Semantic HTML makes a page easier to understand, maintain, and navigate. It also gives browsers, search engines, and assistive technologies a clearer structure.
