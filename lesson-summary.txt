@@ -1,0 +1,5 @@
+SEMANTIC HTML TAGS
+
+I learnt that semantic tags describe the meaning and purpose of page content. Examples include header, nav, main, section, article, aside, and footer.
+
+Semantic HTML makes a page easier to understand, maintain, and navigate. It also gives browsers, search engines, and assistive technologies a clearer structure.
