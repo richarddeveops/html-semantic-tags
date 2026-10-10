@@ -1,5 +1,5 @@
-SEMANTIC HTML TAGS
+SEMANTIC HTML
 
-I learnt that semantic tags describe the meaning and purpose of page content. Examples include header, nav, main, section, article, aside, and footer.
+Semantic elements describe the purpose of their content. <header> introduces a page or section, <nav> groups navigation links, <main> contains the primary page content, <section> groups a topic, <article> holds a self-contained item, <aside> contains related content, and <footer> closes a page or section.
 
-Semantic HTML makes a page easier to understand, maintain, and navigate. It also gives browsers, search engines, and assistive technologies a clearer structure.
+Semantic structure makes source code easier to maintain and helps browsers, search engines, and assistive technologies understand a page. Use one main content landmark per page and choose elements for meaning, not appearance. Generic <div> and <span> elements remain useful when no semantic element fits.

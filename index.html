@@ -3,18 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lesson.css">
     <title>Class Three</title>
 </head>
 <body>
-    <option value="1"></option>
-    <select name="" id=""></select>
-    <mark></mark>
-    <b></b>
-    <ul></ul>
-    <section></section>
-    <aside></aside>
-    <i></i>
-    <p><a href="lesson-summary.txt">What I learned</a></p>
-    
+    <header>
+        <h1>Semantic HTML</h1>
+        <p>Semantic elements describe the purpose of the content they contain.</p>
+    </header>
+    <nav aria-label="Lesson links">
+        <a href="lesson-summary.txt">What I learned</a>
+        <a href="assignment.html">View assignment</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Common semantic elements</h2>
+            <ul>
+                <li><code>&lt;header&gt;</code> introduces a page or section.</li>
+                <li><code>&lt;nav&gt;</code> groups important navigation links.</li>
+                <li><code>&lt;main&gt;</code> contains the page's primary content.</li>
+                <li><code>&lt;section&gt;</code> groups content around a topic.</li>
+                <li><code>&lt;article&gt;</code> holds a self-contained item.</li>
+                <li><code>&lt;aside&gt;</code> holds related, secondary content.</li>
+                <li><code>&lt;footer&gt;</code> contains closing or page information.</li>
+            </ul>
+        </section>
+        <article>
+            <h2>Example article</h2>
+            <p>This paragraph belongs to a self-contained article about semantic HTML.</p>
+        </article>
+    </main>
+    <footer>
+        <p>HTML lessons</p>
+    </footer>
 </body>
 </html> 
