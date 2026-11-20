@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+    color-scheme: light;
+    --paper: #F5F4EF;
+    --ink: #111111;
+    --signal: #D92B2B;
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: clamp(1.25rem, 5vw, 5rem);
+    background: var(--paper);
+    color: var(--ink);
+    font: 500 1rem/1.7 "Plus Jakarta Sans", sans-serif;
+}
+header, main, footer { max-width: 76rem; margin-inline: auto; }
+header { border-top: 8px solid var(--ink); padding-top: 1.5rem; }
+h1, h2, h3 { font-family: Fraunces, Georgia, serif; line-height: 1.08; }
+h1 { max-width: 15ch; margin: 0 0 1.2rem; font-size: clamp(3rem, 9vw, 7.5rem); letter-spacing: -.055em; }
+h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
+nav { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; padding-block: 1rem; border-block: 1px solid var(--ink); }
+main { padding-block: 2rem; }
+main > section, main > article { padding: clamp(1rem, 3vw, 2rem) 0; border-bottom: 1px solid #b9b6ae; }
+a { color: inherit; text-decoration-color: var(--signal); text-decoration-thickness: 2px; text-underline-offset: .25em; }
+a:hover, a:focus-visible { color: var(--signal); }
+li::marker { color: var(--signal); font-weight: 700; }
+img { display: block; max-width: 100%; height: auto; }
+.hero { border-bottom: 5px solid var(--signal); padding-bottom: 2rem; }
+.portfolio-nav a { font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--ink); }
+@media (min-width: 850px) {
+    .portfolio-page main { display: grid; grid-template-columns: minmax(12rem, .7fr) 2fr; gap: 2rem 5rem; }
+    .portfolio-page main > * { grid-column: 2; }
+    .portfolio-page main > h2 { grid-column: 1; }
+}
